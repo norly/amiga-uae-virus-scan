@@ -144,6 +144,7 @@ function populate_dh0()
 	lha xqiw="$TD/$DHDIR/S" "$INSTALLERS"/xadmaster-key.lha xadmaster.key
 
 	cat > "$TD/$DHDIR/S/startup-sequence" <<-EOF
+		;CheckX ALL FROM DF1: LOG SYS:checkx-scandir.log
 		CheckX ALL FROM SYS:scandir LOG SYS:checkx-scandir.log
 		UAEquit
 	EOF
