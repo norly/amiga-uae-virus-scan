@@ -165,6 +165,7 @@ function write_uae_config()
 		floppies_dir = ./
 		#floppy_drive_1 = ./df1.adf
 		fullscreen = 0
+		governor_warning = 0
 		hard_drive_0 = ./$DHDIR
 		initial_input_grab = 0
 		jit_compiler = 1
