@@ -181,7 +181,7 @@ function write_uae_config()
 		save_disk = 0
 		uae_sound_output = none
 		video_sync = 1
-		window_hidden = 1
+		window_hidden = 0
 		zoom = full
 	EOF
 
