@@ -158,7 +158,7 @@ function write_uae_config()
 	cat > "$TD/amiga-virus-scan.fs-uae" <<-EOF
 		[fs-uae]
 		amiga_model = A4000
-		zorro_iii_memory = 65536
+		zorro_iii_memory = 1048576
 		automatic_input_grab = 0
 		end_config = 1
 		expect_version = 2.8.0
